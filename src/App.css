@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+/* Contenedor principal con bordes redondeados suaves */
+.custom-form-card {
+  max-width: 450px;
+  margin: auto;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+/* Etiquetas más elegantes */
+.custom-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4b5563; /* Gris profesional */
+  margin-bottom: 8px;
+}
+
+/* Personalización de los Inputs */
+.form-control {
+  padding: 12px 16px;
+  border-radius: 10px !important;
+  border: 1.5px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+/* Efecto de enfoque (Focus) - El toque maestro */
+.form-control:focus {
+  border-color: #6366f1; /* Azul índigo moderno */
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);
+  outline: none;
+}
+
+/* Estilo para el grupo de entrada (Símbolo $) */
+.input-group-text {
+  border-radius: 10px 0 0 10px !important;
+  border: 1.5px solid #e5e7eb;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Ajuste del input cuando tiene un icono al lado */
+.input-group .form-control {
+  border-radius: 0 10px 10px 0 !important;
+}
+
+/* Estilo de los textos de ayuda (form-text) */
+.form-text {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
